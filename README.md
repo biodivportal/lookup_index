@@ -4,7 +4,7 @@ This tool is intended for creating a so called *lookup index* on a running Elast
 Terms are extracted from Virtuoso (via SPARQL) and inserted into ES, which also handles the JSON (de-)serialization.
 
 ## Index Format
-Following fields are used for the index (*as of 04/26/2022*):
+Following fields are used for the index:
 * label (String)
 * uri (String)
 * author (String)
